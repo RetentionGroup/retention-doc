@@ -1,0 +1,1 @@
+export const GET_TO_DOC_CONTENT = 'GET_TO_DOC_CONTENT';

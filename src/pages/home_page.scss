@@ -1,0 +1,18 @@
+body {
+    color: rgba(26, 26, 26, 0.86);
+    background: #f8f7f7;
+}
+
+.home-page-container {
+    .left-container,
+    .right-container {
+        background: #fff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    .left-container {
+        padding: 1vh 1vh;
+    }
+    .right-container {
+        padding: 0 0;
+    }
+}

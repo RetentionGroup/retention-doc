@@ -1,0 +1,24 @@
+.welcome-page-container {
+    width: 100%;
+    height: 99.7vh;
+    padding: 2vh 2vh;
+    font-size: 1.7vh;
+    line-height: 2.8vh;
+    .bold-coral {
+        font-weight: 700;
+        color: #fd6e72;
+    }
+    .italic-coral {
+        font-style: italic;
+        font-weight: 500;
+        color: #fd6e72;
+    }
+    .italic-cherry {
+        font-style: italic;
+        font-weight: 500;
+        color: #745260;
+    }
+    .italic-after {
+        font-style: italic;
+    }
+}

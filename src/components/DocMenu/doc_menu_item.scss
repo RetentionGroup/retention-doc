@@ -1,0 +1,18 @@
+.doc-menu-item-container {
+    margin: 1vh 0;
+    padding: 0 0;
+    .btn-link {
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgba(26, 26, 26, .75);
+        text-decoration: none;
+    }
+    .btn-link:hover {
+        color: #fd6e72;
+        transition: color .1s ease-out;
+    }
+    .card-body {
+        color: #fd6e72;
+        padding: 1rem;
+    }
+}
