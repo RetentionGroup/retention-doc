@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Accordion} from 'react-bootstrap';
 import DocMenuItem from '../DocMenu/DocMenuItem' 
-import ContentPage from '../ContentPage/ContentPage' 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './doc_menu.scss';
 
@@ -14,7 +13,7 @@ class DocMenu extends Component {
             return <div>Loading</div>
         }
         const docList = docContent.map(data =>
-            <DocMenuItem data={data} id={data.id} key_name={data.name_document} description={data.description} />
+            <DocMenuItem data={data} id={data.id} key_name={data.name_document} description={data.description} key={data.name_document}/>
         )
         
         return docList;

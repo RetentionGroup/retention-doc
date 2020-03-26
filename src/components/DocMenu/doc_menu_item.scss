@@ -2,9 +2,10 @@
     margin: 1vh 0;
     padding: 0 0;
     .btn-link {
-        font-size: 1rem;
+        font-size: 1.6vh;
         font-weight: 400;
-        color: rgba(26, 26, 26, .75);
+        color: #464646;
+        text-align: start;
         text-decoration: none;
     }
     .btn-link:hover {
@@ -12,7 +13,8 @@
         transition: color .1s ease-out;
     }
     .card-body {
+        font-size: 1.4vh;
         color: #fd6e72;
-        padding: 1rem;
+        padding: 1.2vh;
     }
 }

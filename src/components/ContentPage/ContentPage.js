@@ -11,7 +11,7 @@ class ContentPage extends Component {
             <div className='content-page-container'>
                 <div className='content-name'>{name_document}</div>
                 <div className='content-container'>
-                    <iframe src={link_document}  frameborder="0" marginheight="0" marginwidth="0"></iframe>
+                    <iframe src={link_document}  frameBorder="0" marginHeight="0" marginWidth="0"></iframe>
                 </div>
             </div>
         )

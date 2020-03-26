@@ -4,33 +4,33 @@ import './cat_animation.scss';
 
 export default function CatAnimation() {
     return (
-        <div class="cat-container" title='Кот, по кличке "Шерсть"'>
-            <span class="stand"></span>
-            <div class="cat">
-                <div class="body"></div>
-                <div class="head">
-                    <div class="ear"></div>
-                    <div class="ear"></div>
+        <div className='cat-container' title='Кот, по кличке "Шерсть"'>
+            <span className='stand'></span>
+            <div className='cat'>
+                <div className='body'></div>
+                <div className='head'>
+                    <div className='ear'></div>
+                    <div className='ear'></div>
                 </div>
-                <div class="face">
-                    <div class="nose"></div>
-                    <div class="whisker-container">
-                        <div class="whisker"></div>
-                        <div class="whisker"></div>
+                <div className='face'>
+                    <div className='nose'></div>
+                    <div className='whisker-container'>
+                        <div className='whisker'></div>
+                        <div className='whisker'></div>
                     </div>
-                    <div class="whisker-container">
-                        <div class="whisker"></div>
-                        <div class="whisker"></div>
+                    <div className='whisker-container'>
+                        <div className='whisker'></div>
+                        <div className='whisker'></div>
                     </div>
                 </div>
-                <div class="tail-container">
-                    <div class="tail">
-                        <div class="tail">
-                            <div class="tail">
-                                <div class="tail">
-                                    <div class="tail">
-                                        <div class="tail">
-                                            <div class="tail"></div>
+                <div className='tail-container'>
+                    <div className='tail'>
+                        <div className='tail'>
+                            <div className='tail'>
+                                <div className='tail'>
+                                    <div className='tail'>
+                                        <div className='tail'>
+                                            <div className='tail'></div>
                                         </div>
                                     </div>
                                 </div>
