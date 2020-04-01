@@ -7,9 +7,9 @@ const docData = [
     },
     {
         id: 1,
-        name_document: 'Пункт 2',
-        description: 'Етот пункт в разработке',
-        link_document: 'https://docs.google.com/document/d/e/2PACX-1vRwjbkiN18GL92cMhSheC9pi-NRynMVZu2sQhhoIWJk6amygT-lAvBwa4ga5Vky5z0y39HkDtJUtubJ/pub?embedded=true'
+        name_document: 'Что такое ретеншн док? Как им пользоваться? Для чего он?',
+        description: 'Псссс. Эй, друг.(Шепотом) Тут годноту завезли. Обязательно к прочтению!',
+        link_document: 'https://docs.google.com/document/d/e/2PACX-1vQM4ytGVR1Vfth7hs4-89drRyF0Iyhe8rCdlUFiH8affxGBqzPc-nanmwU-9X9SW7yXSiOGG1u20TqK/pub?embedded=true'
     },
     {
         id: 2,
