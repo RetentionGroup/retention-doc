@@ -1,6 +1,6 @@
-.doc-menu-item-container {
-    margin: 0 2vw 0 2vw;
+.faq-menu-container {
     padding: 0 0;
+    padding: 2vh 2vw;
     .btn-link {
         font-size: 1.6vh;
         font-weight: 400;
@@ -12,9 +12,14 @@
         color: #fd6e72;
         transition: color .1s ease-out;
     }
-    .card-body {
+    .card-body,
+    .card-body a {
         font-size: 1.4vh;
         color: #fd6e72;
         padding: 1.2vh;
+    }
+    .card-body a {
+        display: flex;
+        flex-direction: column;
     }
 }

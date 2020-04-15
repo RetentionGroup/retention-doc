@@ -1,10 +1,16 @@
-.doc-menu-item-container {
-    margin: 0 2vw 0 2vw;
-    padding: 0 0;
+.faq-page-item-container {
+    margin: 0 2vw;
+    .faq-page-item-description {
+        iframe {
+            width: 90%;
+            height: 22vh;
+        }
+    }
     .btn-link {
         font-size: 1.6vh;
         font-weight: 400;
         color: #464646;
+        font-style: italic;
         text-align: start;
         text-decoration: none;
     }

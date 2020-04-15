@@ -17,7 +17,7 @@ class DocMenuItem extends Component {
         return (
             <div className='doc-menu-item-container'>
                 <div className='doc-menu-item-name'>
-                    <Link to={{ pathname: `/${id}`, state: data }}>
+                    <Link to={{ pathname: `/article/${id}`, state: data }}>
                         <Accordion.Toggle as={Button} variant="link" eventKey={id}>
                             {key_name}
                         </Accordion.Toggle>
