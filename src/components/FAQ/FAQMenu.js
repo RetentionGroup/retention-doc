@@ -23,7 +23,7 @@ class FAQMenu extends Component {
                 </div>
                 <Accordion.Collapse eventKey='0'>
                     <Card className='faq-menu-description'>
-                        <Card.Body>Ответы на часто задаваемые вопросы.</Card.Body>
+                        <Card.Body>Ответы на часто задаваемые вопросы.(В разработке)</Card.Body>
                     </Card>
                 </Accordion.Collapse>
                 <div className='faq-menu-name'>

@@ -3,7 +3,7 @@ import { Accordion, Card, useAccordionToggle, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './faq_page_item.scss';
 
-class FAQPageItem extends Component {
+class FAQAccordionItem extends Component {
     ContactToggle = ({ eventKey }) => {
         const decoratedOnClick = useAccordionToggle(eventKey);
         return (
@@ -29,4 +29,4 @@ class FAQPageItem extends Component {
     }
 }
 
-export default FAQPageItem;
+export default FAQAccordionItem;
