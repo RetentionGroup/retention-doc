@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Accordion } from 'react-bootstrap';
+import { Accordion, Button, Card } from 'react-bootstrap';
 import FAQPageItem from './FAQAccordionItem'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './faq_accordion.scss';
@@ -13,20 +13,28 @@ class FAQAccordion extends Component {
             return <div>Loading</div>
         }
 
-        const docList = docContentFAQ.map(data => 
-                <Accordion key={data.category_id}>
-                    <div>{data.category_name}</div>
-                    {
-                        data.category_items.map(dataCategory =>
-                            <FAQPageItem
-                                id={dataCategory.id}
-                                name_document={dataCategory.name_document}
-                                link_document={dataCategory.link_document}
-                                key={dataCategory.id}
-                            />   
-                        )
-                    }
-                </Accordion>
+        const docList = docContentFAQ.map(data =>
+            <div>
+                <Accordion.Toggle as={Button} variant="link" eventKey={data.category_id}>
+                    {data.category_name}
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey={data.category_id}>
+                    <Card>
+                        {
+                            data.category_items.map(dataCategory =>
+                                <Accordion key={dataCategory.id}>
+                                    <FAQPageItem
+                                        id={dataCategory.id}
+                                        name_document={dataCategory.name_document}
+                                        link_document={dataCategory.link_document}
+                                        key={dataCategory.id}
+                                    />
+                                </Accordion>
+                            )
+                        }
+                    </Card>
+                </Accordion.Collapse>
+            </div>
         );
 
         return docList;

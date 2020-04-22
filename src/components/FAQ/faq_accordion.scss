@@ -6,4 +6,25 @@
         text-align: center;
         font-size: 2vh;
     }
+    .btn-link {
+        font-size: 1.9vh;
+        margin: 1vh;
+        font-weight: 300;
+        color: #1cb39b;
+        text-align: start;
+        text-decoration: none;
+    }
+    .btn-link:focus {
+        color: #fd6e72;
+    }
+    .btn-link:hover {
+        color: #fd6e72;
+        transition: color .1s ease-out;
+    }
+    .card {
+        margin: 0 2vw;
+        padding: 1vh 0;
+        box-shadow: 0 0 6px rgba(0, 0, 0, .1);
+        border: none;
+    }
 }

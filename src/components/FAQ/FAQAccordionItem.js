@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
-import { Accordion, Card, useAccordionToggle, Button } from 'react-bootstrap';
+import { Accordion, Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './faq_page_item.scss';
+import './faq_accordion_item.scss';
 
 class FAQAccordionItem extends Component {
-    ContactToggle = ({ eventKey }) => {
-        const decoratedOnClick = useAccordionToggle(eventKey);
-        return (
-            <Card variant='secondary' onClick={decoratedOnClick} />
-        );
-    }
     render() {
         const { id, name_document, link_document } = this.props;
         return (
@@ -20,9 +14,7 @@ class FAQAccordionItem extends Component {
                     </Accordion.Toggle>
                 </div>
                 <Accordion.Collapse eventKey={id}>
-                    <Card className='faq-page-item-description'>
-                        <Card.Body><iframe src={link_document}  frameBorder='0' marginHeight='0' marginWidth='0'></iframe></Card.Body>
-                    </Card>
+                    <iframe src={link_document} frameBorder='0' marginHeight='0' marginWidth='0'></iframe>
                 </Accordion.Collapse>
             </div>
         )

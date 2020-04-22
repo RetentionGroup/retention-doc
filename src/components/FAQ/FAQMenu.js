@@ -1,16 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Accordion, Card, useAccordionToggle, Button } from 'react-bootstrap';
+import { Accordion, Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './faq_menu.scss';
 
 class FAQMenu extends Component {
-    ContactToggle = ({ eventKey }) => {
-        const decoratedOnClick = useAccordionToggle(eventKey);
-        return (
-            <Card variant='secondary' onClick={decoratedOnClick} />
-        );
-    }
     render() {
         return (
             <Accordion className='faq-menu-container'>
