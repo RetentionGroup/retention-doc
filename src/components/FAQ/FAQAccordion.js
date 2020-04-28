@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Accordion, Button, Card } from 'react-bootstrap';
+import { Accordion, Button} from 'react-bootstrap';
 import FAQPageItem from './FAQAccordionItem'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './faq_accordion.scss';
@@ -19,7 +19,7 @@ class FAQAccordion extends Component {
                     {data.category_name}
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey={data.category_id}>
-                    <Card>
+                    <div>
                         {
                             data.category_items.map(dataCategory =>
                                 <Accordion key={dataCategory.id}>
@@ -32,7 +32,7 @@ class FAQAccordion extends Component {
                                 </Accordion>
                             )
                         }
-                    </Card>
+                    </div>
                 </Accordion.Collapse>
             </div>
         );

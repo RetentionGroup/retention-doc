@@ -1,0 +1,19 @@
+.sup-doc-item {
+    display: flex;
+    margin: 1vh 1.2vh;
+    .sup-item-icon {
+        margin-right: 1vh;
+        font-size: 1.6vh;
+        color: #fd6e72;
+    }
+    a {
+        font-size: 1.4vh;
+        font-weight: 400;
+        color: #fd6e72;
+        text-align: start;
+    }
+    a:hover {
+        color: #fd6e72;
+        transition: color .1s ease-out;
+    }
+}

@@ -1,6 +1,9 @@
 .faq-menu-container {
     padding: 0 0;
     padding: 2vh 2vw;
+    .item-icon {
+        display: flex;
+    }
     .btn-link {
         font-size: 1.6vh;
         font-weight: 400;
@@ -21,5 +24,9 @@
     .card-body a {
         display: flex;
         flex-direction: column;
+    }
+    .faq-sup-card {
+        margin: 0px;
+        padding: 0px;
     }
 }

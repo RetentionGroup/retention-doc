@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Accordion, Card } from 'react-bootstrap';
+import { Accordion} from 'react-bootstrap';
 import FAQAccordion from './FAQAccordion'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './faq_page.scss';

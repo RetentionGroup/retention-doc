@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import FireAnimation from '../FireAnimation/FireAnimation';
 import { Accordion, Card, Button } from 'react-bootstrap';
+import FAQSupportDoc from '../FAQ/FAQSupportDoc';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './faq_menu.scss';
 
@@ -11,7 +13,7 @@ class FAQMenu extends Component {
                 <div className='faq-menu-name'>
                     <Link to={{ pathname: `/faq`, state: '' }}>
                         <Accordion.Toggle as={Button} variant="link" eventKey='0'>
-                            FAQ
+                            <div className='item-icon'>FAQ<FireAnimation /></div>
                         </Accordion.Toggle>
                     </Link>
                 </div>
@@ -26,13 +28,8 @@ class FAQMenu extends Component {
                     </Accordion.Toggle>
                 </div>
                 <Accordion.Collapse eventKey='1'>
-                    <Card className='faq-menu-description'>
-                        <Card.Body>
-                            <a rel='noopener noreferrer' href='https://docs.google.com/spreadsheets/d/1ftAbOMO9ubRXrK5xv1DZdNeBqYiYg-XKaHLI30WEOj4/edit?usp=sharing' target='_blank'>Методичка по оформлению Retention Lists</a>
-                            <a rel='noopener noreferrer' href='#' target='_blank'>Документ 2</a>
-                            <a rel='noopener noreferrer' href='#' target='_blank'>Документ 3</a>
-                            <a rel='noopener noreferrer' href='#' target='_blank'>Документ 4</a>
-                        </Card.Body>
+                    <Card className='faq-sup-card'>
+                        <FAQSupportDoc />
                     </Card>
                 </Accordion.Collapse>
             </Accordion>
