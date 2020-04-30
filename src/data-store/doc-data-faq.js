@@ -5,15 +5,39 @@ const docDataFAQ = [
         category_items: [
             {
                 id: 0,
-                name_document: 'Вопрос который всех уже задрал N1',
-                description: 'Вопрос который всех уже задрал N1',
-                link_document: 'https://docs.google.com/document/d/e/2PACX-1vQ32PuPq5K2JHuzV1sV63CjOrHcza48IqHMk5O9KAYa4EmMrxhWndaknw7w2tf3hJyyzyJYo9G7K0Xt/pub?embedded=true'
+                name_document: ' Эсли делаешь скрин сайта, каким он должен быть?',
+                description: ' Эсли делаешь скрин сайта, каким он должен быть?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vT4LJpPK39WpuxCYttA9q_8kTI30hjHQubRZ1KbBFIyx_Kd8jA8fLJ9DWjWDUZDPwguQBF_OsvvVDH8/pub?embedded=true'
             },
             {
                 id: 1,
-                name_document: 'Вопрос который всех уже задрал N2',
-                description: 'Вопрос который всех уже задрал N1',
-                link_document: 'https://docs.google.com/document/d/e/2PACX-1vQ32PuPq5K2JHuzV1sV63CjOrHcza48IqHMk5O9KAYa4EmMrxhWndaknw7w2tf3hJyyzyJYo9G7K0Xt/pub?embedded=true'
+                name_document: 'Кода нужен доступ к группе/доку, кого тегать?',
+                description: 'Когда нужен доступ к группе/доку, кого тегать?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vQY15AX5YujktjSY_CK7rHuOr3c7wYmy_b_wxjZr_Y4A7wRD0mQJAeD9_SpSXLBqnbrXu0Lrq3bGomW/pub?embedded=true'
+            },
+            {
+                id: 2,
+                name_document: 'Эсли сам регестрируешь партнера, нужно об этом оповещать ретеншн отдел?',
+                description: 'Эсли сам регестрируешь партнера, нужно об этом оповещать ретеншн отдел?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vTyVLSEzIoEm-nVd2IbBHJ2BiS5tWWzucYZfZKTmFXxRDt4L3LCzY1lkMlS-QR4xkVx_JF3AcRbV1Jv/pub?embedded=true'
+            },
+            {
+                id: 3,
+                name_document: 'Когда ко мне обращаются партнеры, с целью найти менеджера на другой проект, то передавать запрос Ретеншн-отделу, и в каком виде? Как должен выглядеть запрос?',
+                description: 'Когда к мне обращаются партнеры, с целью найти менеджера на другой проект, то передавать запрос Ретеншн-отделу, и в каком виде? Как должен выглядеть запрос?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vRNc6DF4t54rJlTNmABt1Xk_3wl-SLW2lATpNEtoNugA7HBeyYzUbAI5T2vFyLGwB8cbPljkYTV8zlq/pub?embedded=true'
+            },
+            {
+                id: 4,
+                name_document: 'Если у партнера, записано в регестрации другое ГЕО, что с ним делать? С ним можно работать или передать колегам?',
+                description: 'Если у партнера, записано в регестрации другое ГЕО, что с ним делать? С ним можно работать или передать колегам?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vTtbQRs0W71I3_0wWsAHw3VBznJIxXMv4vdojBqOXhzcktPVf24NTkBVoX6ojhG-esczXK2e5Ds0wU8/pub?embedded=true'
+            },
+            {
+                id: 5,
+                name_document: 'Когда узнаю от партнера новый ресурс, какие мои действия?',
+                description: 'Когда узнаю от партнера новый ресурс, какие мои действия?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vSVuUqLfd35sHmiPvYeNY1IVe-7hc5tC8NusfbTUlpHo95psYuHqOkfpQscPHWsQPlzzzVnhiC1BWjx/pub?embedded=true'
             }
         ]
     },
@@ -77,7 +101,7 @@ const docDataFAQ = [
             },
             {
                 id: 9,
-                name_document: 'Функция "Ретеншн". Что ето? Что зак олонка такая "Retention date"?',
+                name_document: 'Функция "Ретеншн". Что ето? Что за колонка такая "Retention date"?',
                 description: 'Функция "Ретеншн". Что ето? Что зак олонка такая "Retention date"?',
                 link_document: 'https://docs.google.com/document/d/e/2PACX-1vSuRJEm0RtqBhSmWndIIlJKUroykwwc5n5fRZ9IUfrKI_v3MeVcgrM5jUlCwSvFlMy78vNA29-T-KX8/pub?embedded=true'
             }
@@ -89,14 +113,14 @@ const docDataFAQ = [
         category_items: [
             {
                 id: 0,
-                name_document: 'Вопрос который всех уже задрал N1',
-                description: 'Вопрос который всех уже задрал N1',
+                name_document: 'Вопрос в разработке',
+                description: 'Вопрос в разработке',
                 link_document: 'https://docs.google.com/document/d/e/2PACX-1vQ32PuPq5K2JHuzV1sV63CjOrHcza48IqHMk5O9KAYa4EmMrxhWndaknw7w2tf3hJyyzyJYo9G7K0Xt/pub?embedded=true'
             },
             {
                 id: 1,
-                name_document: 'Вопрос который всех уже задрал N2',
-                description: 'Вопрос который всех уже задрал N2',
+                name_document: 'Вопрос в разработке',
+                description: 'Вопрос в разработке',
                 link_document: 'https://docs.google.com/document/d/e/2PACX-1vQ32PuPq5K2JHuzV1sV63CjOrHcza48IqHMk5O9KAYa4EmMrxhWndaknw7w2tf3hJyyzyJYo9G7K0Xt/pub?embedded=true'
             }
         ]
@@ -107,15 +131,15 @@ const docDataFAQ = [
         category_items: [
             {
                 id: 0,
-                name_document: 'Вопрос который всех уже задрал N1',
-                description: 'Вопрос который всех уже задрал N1',
-                link_document: 'https://docs.google.com/document/d/e/2PACX-1vQ32PuPq5K2JHuzV1sV63CjOrHcza48IqHMk5O9KAYa4EmMrxhWndaknw7w2tf3hJyyzyJYo9G7K0Xt/pub?embedded=true'
+                name_document: 'К кому и по каким вопросам обращаться?',
+                description: 'К кому и по каким вопросам обращаться?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vRgszlB5hJ75vZUEGhLCoqbU5PIFjmKjlw-bq9HQM7IxpI5V69dicFWNi-iFO3saYEZO_vpPl0FnnlF/pub?embedded=true'
             },
             {
                 id: 1,
-                name_document: 'Вопрос который всех уже задрал N2',
-                description: 'Вопрос который всех уже задрал N2',
-                link_document: 'https://docs.google.com/document/d/e/2PACX-1vQ32PuPq5K2JHuzV1sV63CjOrHcza48IqHMk5O9KAYa4EmMrxhWndaknw7w2tf3hJyyzyJYo9G7K0Xt/pub?embedded=true'
+                name_document: 'Если есть сомнения по партнеру, подозреваете что он работает с другим менеджером или просто хотите узнать о нем, к кому обратится?',
+                description: 'Если есть сомнения по партнеру, подозреваете что он работает с другим менеджером или просто хотите узнать о нем, к кому обратится?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vSJx4_6ZurVwhQaMUQbfWTxkWXRayV5wJkbBXbtmDz4m7t882DVyXq-rnGlVf0VFRXf08CHktt_z_Wj/pub?embedded=true'
             }
         ]
     }

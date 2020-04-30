@@ -11,12 +11,12 @@ const docData = [
         description: 'Псссс. Эй, друг.(Шепотом) Тут годноту завезли. Обязательно к прочтению!',
         link_document: 'https://docs.google.com/document/d/e/2PACX-1vQM4ytGVR1Vfth7hs4-89drRyF0Iyhe8rCdlUFiH8affxGBqzPc-nanmwU-9X9SW7yXSiOGG1u20TqK/pub?embedded=true'
     },
-    {
-        id: 2,
-        name_document: 'Пункт 3',
-        description: 'Етот пункт в разработке',
-        link_document: 'https://docs.google.com/document/d/e/2PACX-1vSDpDoJeUEkWSwsuRH-oXxIvzHJ88li24ULunu0m1PzKWMjxVx4O2aJipzdgiYZTt-rwY1x9BGtupFc/pub?embedded=true'
-    }
+    // {
+    //     id: 2,
+    //     name_document: 'Пункт 3',
+    //     description: 'Етот пункт в разработке',
+    //     link_document: 'https://docs.google.com/document/d/e/2PACX-1vSDpDoJeUEkWSwsuRH-oXxIvzHJ88li24ULunu0m1PzKWMjxVx4O2aJipzdgiYZTt-rwY1x9BGtupFc/pub?embedded=true'
+    // }
 ]
 
 export default docData;
