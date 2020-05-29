@@ -1,8 +1,248 @@
 .logo-container {
     width: 100%;
     border-bottom: 1px solid rgba(231, 231, 237, .5);
+    a:hover {
+        text-decoration: none;
+    }
+    .logo:hover {
+        color: #1cb39b;
+    }
     .logo {
-        width: 26vh;
-        height: 12vh;
+        display: flex;
+        flex-direction: column;
+        color: #434343;
+        font-size: 2.8vh;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        .word-hidden {
+            display: none;
+        }
+        .word-namber-two,
+        .word-namber-three {
+            position: absolute;
+        }
+        .word-namber-two {
+            top: 5.2vh;
+        }
+        .word-namber-three {
+            top: 10.2vh;
+        }
+        .square,
+        .circle,
+        .triangle {
+            position: absolute;
+            top: 9vh;
+        }
+        .square {
+            background: rgb(117, 179, 209);
+            width: 2vh;
+            height: 2vh;
+            transform: scale(0);
+            -o-transform: scale(0);
+            -ms-transform: scale(0);
+            -webkit-transform: scale(0);
+            -moz-transform: scale(0);
+            animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -o-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -ms-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -webkit-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -moz-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            animation-delay: 2.3s;
+            -o-animation-delay: 2.3s;
+            -ms-animation-delay: 2.3s;
+            -webkit-animation-delay: 2.3s;
+            -moz-animation-delay: 2.3s;
+        }
+        .circle {
+            background: #1cb39b;
+            width: 2vh;
+            height: 2vh;
+            border-radius: 50%;
+            transform: scale(0);
+            -o-transform: scale(0);
+            -ms-transform: scale(0);
+            -webkit-transform: scale(0);
+            -moz-transform: scale(0);
+            animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -o-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -ms-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -webkit-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -moz-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            animation-delay: 0s;
+            -o-animation-delay: 0s;
+            -ms-animation-delay: 0s;
+            -webkit-animation-delay: 0s;
+            -moz-animation-delay: 0s;
+        }
+        .triangle {
+            width: 0;
+            height: 0;
+            transform: scale(0);
+            -o-transform: scale(0);
+            -ms-transform: scale(0);
+            -webkit-transform: scale(0);
+            -moz-transform: scale(0);
+            border-style: solid;
+            border-width: 0 1vh 2vh 1vh;
+            border-color: transparent transparent #fd6e72 transparent;
+            animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -o-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -ms-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -webkit-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            -moz-animation: cssload-shrinkgrow 3.45s ease-in-out infinite;
+            animation-delay: 1.15s;
+            -o-animation-delay: 1.15s;
+            -ms-animation-delay: 1.15s;
+            -webkit-animation-delay: 1.15s;
+            -moz-animation-delay: 1.15s;
+        }
+    }
+    @keyframes cssload-shrinkgrow {
+        0% {
+            transform: scale(0);
+        }
+        12.5% {
+            transform: scale(1);
+        }
+        25% {
+            transform: scale(1);
+        }
+        33% {
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(0);
+        }
+    }
+    @-o-keyframes cssload-shrinkgrow {
+        0% {
+            -o-transform: scale(0);
+        }
+        12.5% {
+            -o-transform: scale(1);
+        }
+        25% {
+            -o-transform: scale(1);
+        }
+        33% {
+            -o-transform: scale(0);
+        }
+        100% {
+            -o-transform: scale(0);
+        }
+    }
+    @-ms-keyframes cssload-shrinkgrow {
+        0% {
+            -ms-transform: scale(0);
+        }
+        12.5% {
+            -ms-transform: scale(1);
+        }
+        25% {
+            -ms-transform: scale(1);
+        }
+        33% {
+            -ms-transform: scale(0);
+        }
+        100% {
+            -ms-transform: scale(0);
+        }
+    }
+    @-webkit-keyframes cssload-shrinkgrow {
+        0% {
+            -webkit-transform: scale(0);
+        }
+        12.5% {
+            -webkit-transform: scale(1);
+        }
+        25% {
+            -webkit-transform: scale(1);
+        }
+        33% {
+            -webkit-transform: scale(0);
+        }
+        100% {
+            -webkit-transform: scale(0);
+        }
+    }
+    @-moz-keyframes cssload-shrinkgrow {
+        0% {
+            -moz-transform: scale(0);
+        }
+        12.5% {
+            -moz-transform: scale(1);
+        }
+        25% {
+            -moz-transform: scale(1);
+        }
+        33% {
+            -moz-transform: scale(0);
+        }
+        100% {
+            -moz-transform: scale(0);
+        }
+    }
+}
+
+
+/**************************************************************************/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo-container {
+        .logo {
+            font-size: 2.8vh;
+            font-weight: 700;
+            .word-namber-two,
+            .word-namber-three {
+                position: absolute;
+            }
+            .word-namber-two {
+                top: 1vh;
+                left: 11.5vw
+            }
+            .word-namber-three {
+                top: 1vh;
+                left: 15.2vw
+            }
+            .square,
+            .circle,
+            .triangle {
+                position: absolute;
+                top: 2.1vh;
+                left: 13.3vw;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .word-hidden {
+        display: block !important;
+    }
+    .word-namber-one,
+    .word-namber-two,
+    .word-namber-three {
+        display: none;
+    }
+    .square,
+    .circle,
+    .triangle {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .word-hidden {
+        display: block !important;
+    }
+    .word-namber-one,
+    .word-namber-two,
+    .word-namber-three {
+        display: none;
+    }
+    .square,
+    .circle,
+    .triangle {
+        display: none;
     }
 }

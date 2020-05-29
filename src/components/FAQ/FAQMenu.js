@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import FireAnimation from '../FireAnimation/FireAnimation';
 import { Accordion, Card, Button } from 'react-bootstrap';
 import FAQSupportDoc from '../FAQ/FAQSupportDoc';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,7 +12,7 @@ class FAQMenu extends Component {
                 <div className='faq-menu-name'>
                     <Link to={{ pathname: `/faq`, state: '' }}>
                         <Accordion.Toggle as={Button} variant="link" eventKey='0'>
-                            <div className='item-icon'>FAQ<FireAnimation /></div>
+                            <div className='item-icon'>FAQ</div>
                         </Accordion.Toggle>
                     </Link>
                 </div>

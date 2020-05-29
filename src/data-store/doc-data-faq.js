@@ -38,6 +38,18 @@ const docDataFAQ = [
                 name_document: 'Когда узнаю от партнера новый ресурс, какие мои действия?',
                 description: 'Когда узнаю от партнера новый ресурс, какие мои действия?',
                 link_document: 'https://docs.google.com/document/d/e/2PACX-1vSVuUqLfd35sHmiPvYeNY1IVe-7hc5tC8NusfbTUlpHo95psYuHqOkfpQscPHWsQPlzzzVnhiC1BWjx/pub?embedded=true'
+            },
+            {
+                id: 6,
+                name_document: 'Общие рекомендации по ретеншену партнёров? Частоте коммуникации (в том числе нецелевой, когда как таковых вопросов/предложений нет)?',
+                description: 'Общие рекомендации по ретеншену партнёров? Частоте коммуникации (в том числе нецелевой, когда как таковых вопросов/предложений нет)?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vT-f6PKxC2K2QqqEdamFv3wonkOvD3WLarP1LYAT0_-z03b1Mf1sM4fYOoIs5CJAJb35yqHSfdE7A23/pub?embedded=true'
+            },
+            {
+                id: 7,
+                name_document: 'Если партнер не выходит на связь? Если партнер игнорирует просьбы обновления креативов, информации на своих ресурсах?',
+                description: 'Если партнер не выходит на связь? Если партнер игнорирует просьбы обновления креативов, информации на своих ресурсах?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vT2wXbrZDQztCwULZekbowHFCivOQRQpNIxsEqiNHIW2bbVOaLTuMz9T8u5PiW0StemLC2sOR-AE8SL/pub?embedded=true'
             }
         ]
     },
@@ -113,15 +125,15 @@ const docDataFAQ = [
         category_items: [
             {
                 id: 0,
-                name_document: 'Вопрос в разработке',
-                description: 'Вопрос в разработке',
-                link_document: 'https://docs.google.com/document/d/e/2PACX-1vQ32PuPq5K2JHuzV1sV63CjOrHcza48IqHMk5O9KAYa4EmMrxhWndaknw7w2tf3hJyyzyJYo9G7K0Xt/pub?embedded=true'
+                name_document: 'Какие критерии для попадания в список TOP USD?',
+                description: 'Какие критерии для попадания в список TOP USD?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vQ10m4USZdN8lTmOwV0DlCOXuUQNQGWG6OUS67nHrw-r3eeNYTVi9GtgmubhluQN67c3gBHAW5olUH1/pub?embedded=true'
             },
             {
                 id: 1,
-                name_document: 'Вопрос в разработке',
-                description: 'Вопрос в разработке',
-                link_document: 'https://docs.google.com/document/d/e/2PACX-1vQ32PuPq5K2JHuzV1sV63CjOrHcza48IqHMk5O9KAYa4EmMrxhWndaknw7w2tf3hJyyzyJYo9G7K0Xt/pub?embedded=true'
+                name_document: 'Можно ли ознакомиться с процедурой ретеншена ТОП партнёров и RetentionDoc TOP заблаговременно, до фактического появления партнёров этой группы? В чём фишки и особенности?',
+                description: 'Можно ли ознакомиться с процедурой ретеншена ТОП партнёров и RetentionDoc TOP заблаговременно, до фактического появления партнёров этой группы? В чём фишки и особенности?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vQHJuHzUuP06yFOr7uRIjVeFxTX-_m7n_y83YIucnRPbryS6GtMu7JCQHmFBqMEnXSmCVeOVEVM8NBw/pub?embedded=true'
             }
         ]
     },
@@ -140,6 +152,12 @@ const docDataFAQ = [
                 name_document: 'Если есть сомнения по партнеру, подозреваете что он работает с другим менеджером или просто хотите узнать о нем, к кому обратится?',
                 description: 'Если есть сомнения по партнеру, подозреваете что он работает с другим менеджером или просто хотите узнать о нем, к кому обратится?',
                 link_document: 'https://docs.google.com/document/d/e/2PACX-1vSJx4_6ZurVwhQaMUQbfWTxkWXRayV5wJkbBXbtmDz4m7t882DVyXq-rnGlVf0VFRXf08CHktt_z_Wj/pub?embedded=true'
+            },
+            {
+                id: 2,
+                name_document: 'В доке есть партнер, я его не вижу. Как с этим быть и почему так происходит? К кому обращаться?',
+                description: 'В доке есть партнер, я его не вижу. Как с этим быть и почему так происходит? К кому обращаться?',
+                link_document: 'https://docs.google.com/document/d/e/2PACX-1vRVB-3UzRXQSQMGJLgZLyoo6SE9MXGstTJ2otGKR4qMrQkKwaWQ26N6IliDxDkgjLGqeHC_RMzruJsB/pub?embedded=true'
             }
         ]
     }
