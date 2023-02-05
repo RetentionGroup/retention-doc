@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/retention-doc/static/css/main.c5761e8e.chunk.css",
+    "main.js": "/retention-doc/static/js/main.0a0e5eef.chunk.js",
+    "main.js.map": "/retention-doc/static/js/main.0a0e5eef.chunk.js.map",
+    "runtime-main.js": "/retention-doc/static/js/runtime-main.8a95b52f.js",
+    "runtime-main.js.map": "/retention-doc/static/js/runtime-main.8a95b52f.js.map",
+    "static/css/2.de424728.chunk.css": "/retention-doc/static/css/2.de424728.chunk.css",
+    "static/js/2.7143b53d.chunk.js": "/retention-doc/static/js/2.7143b53d.chunk.js",
+    "static/js/2.7143b53d.chunk.js.map": "/retention-doc/static/js/2.7143b53d.chunk.js.map",
+    "index.html": "/retention-doc/index.html",
+    "precache-manifest.890d6eaef712e0592161293a3cd804db.js": "/retention-doc/precache-manifest.890d6eaef712e0592161293a3cd804db.js",
+    "service-worker.js": "/retention-doc/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/retention-doc/static/css/2.de424728.chunk.css.map",
+    "static/css/main.c5761e8e.chunk.css.map": "/retention-doc/static/css/main.c5761e8e.chunk.css.map",
+    "static/js/2.7143b53d.chunk.js.LICENSE.txt": "/retention-doc/static/js/2.7143b53d.chunk.js.LICENSE.txt",
+    "static/media/cat_song.mp3": "/retention-doc/static/media/cat_song.17c97745.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a95b52f.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.7143b53d.chunk.js",
+    "static/css/main.c5761e8e.chunk.css",
+    "static/js/main.0a0e5eef.chunk.js"
+  ]
+}
