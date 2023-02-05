@@ -7,7 +7,7 @@ import './logo.scss'
 export default function HomePage() {
     return (
         <div className='logo-container'>
-            <Link to={{ pathname: `/` }}>
+            <Link to={{ pathname: `/retention-doc` }}>
                 <div className='logo'>
                         <div className="word-namber-one">Retention</div>
                         <div className="word-hidden">Retention Doc</div>
