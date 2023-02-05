@@ -22,7 +22,7 @@ export default function HomePage() {
                         <FAQMenu />
                     </Col>
                     <Col lg="8" className='right-container'>
-                        <Route path='/' component={WelcomePage} exact />
+                        <Route path='/retention-doc' component={WelcomePage} exact />
                         <Route path='/article/:id' component={ContentPage} exact />
                         <Route path='/faq' component={FAQPage} exact />
                     </Col>
