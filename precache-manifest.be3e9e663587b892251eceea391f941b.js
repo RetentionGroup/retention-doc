@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79e8095910d055f8a1755ef2c0a8f89f",
+    "revision": "d091835cb4ce57a5ede52fbb21d7d15b",
     "url": "/retention-doc/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/retention-doc/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "1051e810c302d9a30117",
+    "revision": "5a7c7e7e25e559f430ec",
     "url": "/retention-doc/static/css/main.c5761e8e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/retention-doc/static/js/2.7143b53d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1051e810c302d9a30117",
-    "url": "/retention-doc/static/js/main.0a0e5eef.chunk.js"
+    "revision": "5a7c7e7e25e559f430ec",
+    "url": "/retention-doc/static/js/main.83685785.chunk.js"
   },
   {
     "revision": "a01457852cc519fc3911",
